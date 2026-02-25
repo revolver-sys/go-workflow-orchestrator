@@ -68,6 +68,21 @@ This repository focuses on the control plane:
 
 ---
 
+## Documentation
+
+Core design documents:
+
+- [`docs/state-machine.md`](docs/state-machine.md) — explicit workflow state transitions
+- [`docs/manifest-model.md`](docs/manifest-model.md) — manifest-driven execution model
+- [`docs/execution-model.md`](docs/execution-model.md) — step isolation and process model
+- [`docs/retry-policy.md`](docs/retry-policy.md) — retry classification and backoff design
+- [`docs/audit-log.md`](docs/audit-log.md) — structured audit event model
+- [`docs/run-layout.md`](docs/run-layout.md) — filesystem artifact layout
+- [`docs/health-model.md`](docs/health-model.md) — health signal evaluation model
+- [`docs/security-boundaries.md`](docs/security-boundaries.md) — trust and isolation boundaries
+
+---
+
 ## Status
 
 Architecture notes + minimal prototype in progress.
